@@ -94,11 +94,11 @@ Todas as ações atualizam diretamente o banco usando SQLAlchemy.
 
 ## 🛠 Tecnologias Utilizadas
 
-* **Python 3**
-* **Flask**
-* **SQLAlchemy**
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **Jinja2**
-* **SQLite**
+* Python 3
+* Flask
+* SQLAlchemy
+* HTML5
+* CSS3
+* JavaScript
+* Jinja2
+* SQLite
