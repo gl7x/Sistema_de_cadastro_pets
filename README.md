@@ -66,7 +66,6 @@ Todas as ações atualizam diretamente o banco usando SQLAlchemy.
 
 ## 📁 Estrutura do Projeto
 
-```
 /projeto_final
 │
 ├── controllers/
