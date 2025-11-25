@@ -64,8 +64,6 @@ Todas as ações atualizam diretamente o banco usando SQLAlchemy.
 * Exibidas nos templates
 * Armazenamento via pasta `/static/img`
 
----
-
 ## 📁 Estrutura do Projeto
 
 ```
@@ -92,13 +90,13 @@ Todas as ações atualizam diretamente o banco usando SQLAlchemy.
 ├── README.md
 └── run.py
 
-## 🛠 Tecnologias Utilizadas
+### 🛠 Tecnologias Utilizadas
 
-* Python 3
-* Flask
-* SQLAlchemy
-* HTML5
-* CSS3
-* JavaScript
-* Jinja2
-* SQLite
+*Python 3
+*Flask
+*SQLAlchemy
+*HTML5
+*CSS3
+*JavaScript
+*Jinja2
+*SQLite
