@@ -102,10 +102,3 @@ Todas as ações atualizam diretamente o banco usando SQLAlchemy.
 * **JavaScript**
 * **Jinja2**
 * **SQLite**
-
----
-
-## 👨‍💻 Autores
-
-* **Otávio Sousa da Silva**
-* **Guilherme Pablo de Sousa Silva**
