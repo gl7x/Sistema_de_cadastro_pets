@@ -60,7 +60,7 @@ Todas as ações atualizam diretamente o banco usando SQLAlchemy.
 
 ### 🔹 Uso de Imagens
 
-* Cada pet possui uma imagem associada
+* Cada pet possui uma imagem da nossa Loja
 * Exibidas nos templates
 * Armazenamento via pasta `/static/img`
 
@@ -99,4 +99,5 @@ Todas as ações atualizam diretamente o banco usando SQLAlchemy.
 * **CSS3**
 * **JavaScript**
 * **Jinja2**
+
 * **SQLite**
