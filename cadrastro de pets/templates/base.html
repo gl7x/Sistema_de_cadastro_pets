@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Tarefas do Pet Shop</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script defer src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <div class="estrutura-pagina">
+        <header class="cabecalho">
+            <div>
+                <p class="rotulo">Lista do Pet Shop</p>
+                <h1>Cuidar dos pets com carinho</h1>
+            </div>
+            <nav class="navegacao">
+                <a href="{{ url_for('tasks.index') }}">Agenda</a>
+                <a class="principal" href="{{ url_for('tasks.new') }}">Nova tarefa</a>
+            </nav>
+        </header>
+
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer>
+            <p>Tapetes limpos, coleiras alinhadas e pets felizes.</p>
+        </footer>
+    </div>
+</body>
+</html>
